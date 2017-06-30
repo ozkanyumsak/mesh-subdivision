@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Schemes">
+      <UniqueIdentifier>{595b1570-08a2-4143-84da-a3a5f5aa29eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Schemes">
+      <UniqueIdentifier>{253303ed-d30b-441d-8a2f-da1e0f81afea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventor">
+      <UniqueIdentifier>{be0d8773-ac5f-4971-bab3-74ed524444fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventor">
+      <UniqueIdentifier>{6703eaee-34ed-4505-bcd6-fa667ed6e3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{eec19f5d-c198-4298-baa5-95b8516e183f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{de1029ff-4abf-4c53-a8c3-76da53562ea9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="CatmullClark.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="FilledShape.cpp">
+      <Filter>Source Files\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="WireframeShape.cpp">
+      <Filter>Source Files\Inventor</Filter>
+    </ClCompile>
+    <ClCompile Include="DooSabin.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="PetersReiff.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="Butterfly.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="KobbeltRoot3.cpp">
+      <Filter>Source Files\Schemes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshData.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="CatmullClark.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="FilledShape.h">
+      <Filter>Header Files\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="WireframeShape.h">
+      <Filter>Header Files\Inventor</Filter>
+    </ClInclude>
+    <ClInclude Include="DooSabin.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="PetersReiff.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="Butterfly.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="KobbeltRoot3.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgoRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScheme.h">
+      <Filter>Header Files\Schemes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
