@@ -13,7 +13,7 @@ int main(int, char** argv)
 
 	viewer->setDrawStyle(SoWinViewer::DrawType::INTERACTIVE,
 		SoWinViewer::DrawStyle::VIEW_WIREFRAME_OVERLAY);
-	
+
 	SoSeparator* root = new SoSeparator();
 	root->ref();
 
