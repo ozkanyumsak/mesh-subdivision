@@ -1,5 +1,5 @@
 # mesh-subdivision
-A collection of common mesh subdivision algorithms.
+A collection of mesh subdivision algorithms.
 
 Algorithms that are currently implemented:
   - ButterFly
@@ -13,6 +13,6 @@ For now, only OFF mesh format is supported. Mesh examples including letters, num
 
 Meshes are represented as a variation of Half-Edge data structure. See Mesh class for details.
 
-Demo application is rather simple: You can choose a subdivision algorithm and a mesh to apply it to from a console-based user interface. Most of it is implemented in AlgoRunner class.
+Demo application is rather simple: You choose a subdivision algorithm and a mesh to apply it to from a console-based user interface. Most of it is implemented in AlgoRunner class.
 
-Used Open Inventor for visualization of subdivision results.
+Used Open Inventor for visualization of subdivision results, given a mesh object. To use another visualization framework, modify files under Inventor folder (FilledShape and WireframeShape classes), Algorunner and Main.
